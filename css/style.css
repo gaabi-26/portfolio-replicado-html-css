@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #fffdf4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 55px;
+}
+.menu a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+ 
+.header .button{
+    background-color: black;
+    color: white;
+    padding: 12px 19px;
+    border-radius: 20px;
+    border: 1px solid #fffdf4 ;
+    font-size: 13px;
+}
+
+.header .button:hover{
+    cursor: pointer;
+    background-color: #fffdf4;
+    color: black;
+    border: 1px solid black;
+    transition: .6s;
+    
+}
+
