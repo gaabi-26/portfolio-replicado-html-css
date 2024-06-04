@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,11 +12,16 @@ body{
     justify-content: space-between;
     padding: 15px 55px;
 }
+.header h3{
+    font-style: italic;
+    
+}
 .menu a{
     padding: 0 10px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 14px;
 
 }
  
@@ -34,7 +39,54 @@ body{
     background-color: #fffdf4;
     color: black;
     border: 1px solid black;
-    transition: .6s;
+    transition: .8s;
     
 }
+
+.main{
+    background-color: #fffdf4;
+}
+
+.hero{
+    height: 80vh;
+    background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);
+}
+.hero .hola{
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    padding-top: 20px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.hero-content .button{
+    background-color: #fffdf4;
+    border: 1px solid #fffdf4;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.hero-content p{
+    font-weight: bold;
+    width: 20%;
+}
+
+.hero-content h1{
+    text-align: start;
+    font-size: 100px;
+    /* border: 1px solid black; */
+    width: 20%;
+}
+.hero-content h2{
+    font-size: 50px;
+    /* border: 1px solid black; */
+    width: 20%;
+
+}
+
 
