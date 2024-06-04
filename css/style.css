@@ -40,7 +40,6 @@ body{
     color: black;
     border: 1px solid black;
     transition: .8s;
-    
 }
 
 .main{
@@ -61,7 +60,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 50px;
 }
 
 .hero-content .button{
@@ -82,11 +80,39 @@ body{
     /* border: 1px solid black; */
     width: 20%;
 }
+
 .hero-content h2{
     font-size: 50px;
     /* border: 1px solid black; */
     width: 20%;
+}
 
+.project h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);     
+    grid-template-rows: repeat(2, auto);     
+    gap: 50px; 
+}
+
+.project .grid-container img{
+    height: 100%;
+    width: 80vh;
+    border-radius: 30px;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: space-between;
 }
 
 
