@@ -25,7 +25,7 @@ body{
 
 }
  
-.header .button{
+.header button{
     background-color: black;
     color: white;
     padding: 12px 19px;
@@ -34,7 +34,7 @@ body{
     font-size: 13px;
 }
 
-.header .button:hover{
+.header button:hover{
     cursor: pointer;
     background-color: #fffdf4;
     color: black;
@@ -49,6 +49,7 @@ body{
 .hero{
     height: 80vh;
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);
+    padding: 0 55px;
 }
 .hero .hola{
     text-align: center;
@@ -62,12 +63,18 @@ body{
     justify-content: space-between;
 }
 
-.hero-content .button{
+.hero-content button{
     background-color: #fffdf4;
     border: 1px solid #fffdf4;
     border-radius: 20px;
     padding: 10px 20px;
     font-weight: bold;
+}
+.hero-content button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: #fffdf4;
+    transition: .8s;
 }
 .hero-content p{
     font-weight: bold;
@@ -77,13 +84,11 @@ body{
 .hero-content h1{
     text-align: start;
     font-size: 100px;
-    /* border: 1px solid black; */
     width: 20%;
 }
 
 .hero-content h2{
     font-size: 50px;
-    /* border: 1px solid black; */
     width: 20%;
 }
 
@@ -101,12 +106,13 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);     
     grid-template-rows: repeat(2, auto);     
-    gap: 50px; 
+    gap: 50px;
+     
 }
 
 .project .grid-container img{
     height: 100%;
-    width: 80vh;
+    width: 90vh;
     border-radius: 30px;
 }
 
@@ -114,5 +120,19 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.flex-item button{
+    background-color: #fffdf4;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.flex-item button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: #fffdf4;
+    transition: .8s;
+}   
 
 
