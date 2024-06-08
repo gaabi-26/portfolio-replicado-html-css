@@ -152,18 +152,17 @@ body{
 .services  .items{
     text-align: start;
     padding: 0 70px 2px 10px ;
-    border-left: 1px solid black;
+    border-left: 1px solid rgba(0, 0, 0, .5);
 }
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 .statistics{
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);;
-    padding: 0 55px;
+    padding: 150px 55px 0;
 }
 .statistics h2{
     font-size: 50px;
     text-align: center;  
-    padding: 150px 0 20px;  
 }
 .statistics .statistic-container{
     display: flex;
@@ -201,4 +200,34 @@ body{
 }
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
+.skills{
+    padding: 150px 55px 0;
+}
+.skills h2{
+    font-size: 50px;
+    text-align: center;  
+}
+.skills .flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+}
+.skills .items{
+    width: 13%;
+    /* border: 1px solid black; */
+}
+.skills .item3{
+    flex-grow: 0.3;
+}
+.skills .items img{
+    width: 100%;
+    border-radius: 20px;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
 
