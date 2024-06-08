@@ -5,6 +5,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .header{
     background-color: #fffdf4;
     display: flex;
@@ -42,9 +44,14 @@ body{
     transition: .8s;
 }
 
+
+
 .main{
     background-color: #fffdf4;
 }
+
+
+
 
 .hero{
     height: 80vh;
@@ -92,9 +99,11 @@ body{
     width: 20%;
 }
 
+
+
 .project h2{
     text-align: center;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .flex-container{
@@ -135,26 +144,80 @@ body{
     transition: .8s;
 }  
 
+
+
 .services h2{
+    font-size: 50px;
     text-align: center;
-    padding: 50px 0 20px;
+    padding: 150px 0 20px;
 }
 
-.services .services-container{
+.services-container{
     display: flex;
     padding: 15px 55px;
     justify-content: space-between;
 
 }
-.services .services-container .item h3{
+.services-container .items h3{
     padding: 0 0 70px;
 }
 
-.services .services-container .item{
+.services-container .items{
     text-align: start;
     padding: 0 70px 2px 10px ;
     border-left: 1px solid black;
 
+}
+
+
+
+.statistics{
+    background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);;
+    padding: 0 55px;
+}
+.statistics h2{
+    font-size: 50px;
+    text-align: center;  
+    padding: 150px 0 20px;  
+}
+.statistic-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.statistic-container .item1 h3{
+    font-size: 25px;
+    padding: 20px 0 80px;
+    margin-right: 500px;
+
+}
+
+.statistic-container .item1{
+    width: 100%;
+}
+.statistic-container .item2{
+    width: 100%;
+    object-fit: cover;
+}
+
+.statistic-container .item2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+.statistics-subcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);     
+    grid-template-rows: repeat(2, 1fr); 
+}
+
+.item1 .subitem h4{
+    font-size: 40px;
+}
+.item11 .subitem p{
+    font-size: 15px;
 }
 
 
