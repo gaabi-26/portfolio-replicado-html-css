@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------------------*/
+
 @font-face {
     font-family: amiri-italic;
     src: url(/fonts/Amiri-Italic/amiri/Amiri-BoldItalic.ttf);
@@ -7,7 +7,22 @@
     font-family: oswald;
     src: url(/fonts/Oswald-Bold/oswald/Oswald-Bold.ttf);
 }
-
+@font-face {
+    font-family: linik-sans;
+    src: url(/fonts/LinikSans-SemiBold/LinikSans-Bold.ttf);
+}
+@font-face {
+    font-family: rakes-it;
+    src: url(/fonts/RakeslyBk-Italic/rakesly\ lt\ it.ttf);
+}
+@font-face {
+    font-family: heebo-regular;
+    src: url(/fonts/Heebo-Regular/heebo/Heebo-Regular.ttf);
+}
+@font-face {
+    font-family: heebo-bold;
+    src: url(/fonts/Heebo-Regular/heebo/Heebo-Bold.ttf);
+}
 /*----------------------------------------------------------------------------*/
 body{
     background-color: black;
@@ -40,10 +55,13 @@ body{
     padding: 0 10px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
     font-size: 14px;
+    font-family: heebo-regular;
+    font-weight: bold;
+    
 }
 .header .menu a:hover{
+    font-family: heebo-bold;
     text-decoration: underline;
     transition: .8s;
 }
@@ -90,6 +108,7 @@ body{
     border: 1px solid #fffdf4;
     border-radius: 20px;
     padding: 10px 20px;
+    font-family: heebo-regular;
     font-weight: bold;
 }
 .hero .hero-content button:hover{
@@ -100,9 +119,12 @@ body{
     cursor: pointer;
 }
 .hero .hero-content p{
-    font-weight: bold;
     flex-basis: 350px;
     font-weight: normal;
+    font-family: heebo-regular;
+    font-weight: bold;
+
+    
 }
 
 .hero .hero-content h1{
@@ -122,6 +144,8 @@ body{
 .project h2{
     text-align: center;
     font-size: 50px;
+    font-family: oswald;
+
 }
 .project .flex-container{
     display: flex;
@@ -161,6 +185,7 @@ body{
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 .services h2{
+    font-family: oswald;
     font-size: 50px;
     text-align: center;
     padding: 150px 0 20px;
@@ -169,15 +194,27 @@ body{
     display: flex;
     padding: 15px 55px;
     justify-content: space-between;
-
-}
-.services  .items h3{
-    padding: 0 0 70px;
 }
 .services  .items{
+    width: 20%;
     text-align: start;
     padding: 0 70px 2px 10px ;
     border-left: 1px solid rgba(0, 0, 0, .5);
+}
+.services  .items h3{
+    font-family: rakes-it;
+    font-size: 60px;
+    color: rgba(0,0,0,0.1);
+    padding: 0 0 70px;
+    margin: 0;
+}
+.services .items h4{
+    font-family: linik-sans;
+}
+.services .items p{
+    font-family: heebo-regular;
+    color: rgba(0,0,0, 0.7);
+    margin: 0;
 }
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
@@ -186,6 +223,8 @@ body{
     padding: 150px 55px 0;
 }
 .statistics h2{
+    font-family: oswald;
+
     font-size: 50px;
     text-align: center;  
 }
@@ -229,6 +268,7 @@ body{
     padding: 150px 55px 0;
 }
 .skills h2{
+    font-family: oswald;
     font-size: 50px;
     text-align: center;  
 }
@@ -259,6 +299,7 @@ body{
     padding: 100px 55px;
 }
 .workstation h2{
+    font-family: oswald;
     font-size: 50px;
     text-align: center;
 }
