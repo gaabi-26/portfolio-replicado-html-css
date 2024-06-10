@@ -296,7 +296,6 @@ body{
     padding-bottom: 25px;
     margin-bottom: 50px;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-
 }
 .skills .items{
     width: 13%;
@@ -312,7 +311,7 @@ body{
 /*----------------------------------------------------------------------------*/
 .workstation{
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);;
-    padding: 100px 55px;
+    padding: 100px 55px 0;
 }
 .workstation h2{
     font-family: oswald;
@@ -354,4 +353,68 @@ body{
 .workstation .grid-item6{
     grid-column: 4/5;
     grid-row: 1/3;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.form{
+    padding: 150px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);;
+
+    
+}
+.form h2{
+    font-family: oswald;
+    font-size: 50px;
+    text-align: center;
+}
+.form input{
+    width: 400px;
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid silver;
+    margin: 10px 50px;
+    padding: 0;
+    background-color: transparent;
+
+}
+.form label{
+    display: block;
+    margin: 30px 50px;
+}
+.form textarea{
+    width: 900px;
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid silver;
+    padding: 0;
+    margin: 0 50px;
+    background-color: transparent;
+}
+.form  button{
+    background-color: black;
+    margin: 25px 50px;
+    color: white;
+    padding: 12px 60px;
+    border-radius: 20px;
+    border: 1px solid #fffdf4 ;
+    font-size: 13px;
+}
+.form  button:hover{
+    cursor: pointer;
+    background-color: #fffdf4;
+    color: black;
+    border: 1px solid black;
+    transition: .8s;
+}
+.form .full-name{
+    display: flex;
+}
+.form .email{
+    padding: 50px 0;
 }
