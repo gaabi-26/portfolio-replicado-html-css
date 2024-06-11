@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: amiri-italic;
     src: url(/fonts/Amiri-Italic/amiri/Amiri-BoldItalic.ttf);
@@ -363,8 +362,6 @@ body{
     align-items: center;
     font-weight: bold;
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);;
-
-    
 }
 .form h2{
     font-family: oswald;
