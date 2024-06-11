@@ -49,6 +49,8 @@ body{
     padding: 15px 55px;
 }
 .footer{
+    padding: 50px 0;
+    background-color: #fffdf4;
 
 }
 /*----------------------------------------------------------------------------*/
@@ -364,7 +366,7 @@ body{
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 .form{
-    padding: 150px 55px;
+    padding: 150px 55px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,4 +424,16 @@ body{
 }
 .form .email{
     padding: 50px 0;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.social-networks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-networks img{
+    width: 30px;
+    object-fit: cover;
+    padding: 0 50px;
 }
