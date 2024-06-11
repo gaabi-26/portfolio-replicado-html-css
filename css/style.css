@@ -26,6 +26,10 @@
     font-family: heebo-bold;
     src: url(/fonts/Heebo-Regular/heebo/Heebo-Bold.ttf);
 }
+@font-face {
+    font-family: apple;
+    src: url(/fonts/Apple-Garamond-Light-Italic/AppleGaramond-LightItalic.ttf);
+}
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 body{
@@ -83,18 +87,18 @@ body{
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 .hero{
-    height: 58vh;
+    height: 60vh;
     padding: 0 55px;
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);
-    padding-top: 200px;
 }
-.hero img{
-    height: 750px;
-    object-fit: cover;
-    position: absolute;
-    top: 100px;
-    left: 350px;
+.hero h1{
+    font-family: apple;
+    font-size: 150px;
+    text-align: center;
+    margin: 20px 0 ;
+    font-weight: lighter;
 }
+
 .hero .hero-content{
     display: flex;
     align-items: center;
@@ -132,6 +136,10 @@ body{
     font-family: oswald;
     font-size: 60px;
     flex-basis: 10px;
+    padding-top: 180px;
+}
+.hero .below{
+    padding-top: 70px;
 }
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
