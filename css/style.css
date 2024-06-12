@@ -33,12 +33,15 @@
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 body{
+    width: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
     font-family: heebo-regular;
 }
 .main{
+    width: 100%;
+
     background-color: #fffdf4;
 }
 .header{
@@ -46,7 +49,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 55px;
+    padding: 10px 55px 0;
 }
 .footer{
     padding: 50px 0;
@@ -71,7 +74,7 @@ body{
     color: rgba(0, 0, 0, 1);
     transition: .5s;
 }
-.header button{
+.header .contact button{
     background-color: black;
     color: white;
     padding: 12px 19px;
@@ -79,17 +82,19 @@ body{
     border: 1px solid #fffdf4 ;
     font-size: 13px;
 }
-.header button:hover{
+.header .contact button:hover{
     cursor: pointer;
     background-color: #fffdf4;
     color: black;
     border: 1px solid black;
     transition: .8s;
 }
+.header .list{
+    display: none;
+}   
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 .hero{
-    height: 60vh;
     padding: 0 55px;
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);
 }
@@ -97,7 +102,7 @@ body{
     font-family: apple;
     font-size: 150px;
     text-align: center;
-    margin: 20px 0 ;
+    margin: 0 0 20px;
     font-weight: lighter;
 }
 
@@ -138,7 +143,7 @@ body{
     font-family: oswald;
     font-size: 60px;
     flex-basis: 10px;
-    padding-top: 180px;
+    padding-top: 165px;
 }
 .hero .below{
     padding-top: 70px;
@@ -146,7 +151,7 @@ body{
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 .project{
-    padding: 150px 55px 0;
+    padding: 0 55px;
 }
 .project h2{
     text-align: center;
@@ -201,15 +206,17 @@ body{
 }  
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
+.services{
+    padding: 150px 55px 0;
+}
 .services h2{
     font-family: oswald;
     font-size: 50px;
     text-align: center;
-    padding: 150px 0 20px;
 }
 .services  .services-container{
     display: flex;
-    padding: 15px 55px;
+    padding: 15px 0;
     justify-content: space-between;
 }
 .services  .items{
@@ -320,7 +327,7 @@ body{
 /*----------------------------------------------------------------------------*/
 .workstation{
     background: linear-gradient(to bottom, #fffdf4 0%, #ffe4be 50%, #fffdf4 100%);;
-    padding: 100px 55px 0;
+    padding: 150px 55px 0;
 }
 .workstation h2{
     font-family: oswald;
@@ -378,7 +385,11 @@ body{
     font-size: 50px;
     text-align: center;
 }
-.form input{
+.form label{
+    display: block;
+    margin: 30px 50px;
+}
+    .form input{
     width: 400px;
     display: block;
     border: none;
@@ -387,11 +398,6 @@ body{
     margin: 10px 50px;
     padding: 0;
     background-color: transparent;
-
-}
-.form label{
-    display: block;
-    margin: 30px 50px;
 }
 .form textarea{
     width: 900px;
@@ -432,8 +438,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+.social-networks a{
+    margin: 0 50px;
+}
 .social-networks img{
-    width: 30px;
+    width: 35px;
     object-fit: cover;
-    padding: 0 50px;
 }

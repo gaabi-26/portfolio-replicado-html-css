@@ -6,28 +6,30 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     
 </head>
 <body>
     <header class="header">
         <h3>Gabriel.</h3>
-
         <section>
             <nav class="menu">
-                <a href="#">Inicio</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Acerca de</a>
-                <a href="#">Servicios</a>
+                <a href="#hero">Inicio</a>
+                <a href="#proyect">Trabajos</a>
+                <a href="#skills">Acerca de</a>
+                <a href="#services">Servicios</a>
                 <a href="#">Recomendaciones</a>
             </nav>
         </section>
-        <a href="#"><button>Contactar</button></a>
+        <a href="#form" class="contact"><button>Contactar</button></a>
+        <button class="list"><img src="img/list.svg" alt=""></button>
     </header>
+
 
     <main class="main">
         <!------------------------------------------------->
-        <section class="hero">
-            <h1>Hola a todos</h1>
+        <section id="hero" class="hero">
+            <h1 class="saludo">Hola a todos</h1>
             <div class="hero-content">
                 <a href="#"><button>Disponible para nuevas oportunidades</button></a>
                 <p>Especializado en Desarrollo Web y Desarrollo de Apliciones de Escritorio</p>
@@ -39,7 +41,7 @@
         </section>
         <!------------------------------------------------->
         <!------------------------------------------------->
-        <section class="project">
+        <section id="proyect" class="project">
                 <h2>PROYECTOS RECIENTES</h2>
                 <section class="grid-container">
                     <div class="item1">
@@ -64,7 +66,7 @@
         </section>
         <!------------------------------------------------->
         <!------------------------------------------------->
-        <section class="services">
+        <section id="services" class="services">
             <h2>PUEDO AYUDARTE CON</h2>
             <section class="services-container">
                 <div class="items">
@@ -90,7 +92,7 @@
         </section>
         <!------------------------------------------------->
         <!------------------------------------------------->
-        <section class="statistics">
+        <section id="skills" class="statistics">
             <h2>CAMBIANDO MI VISIÓN</h2>
             <div class="statistic-container">
                 <div class="item1">
@@ -124,7 +126,7 @@
         <section class="skills">
             <h2>EXPERIENCIA & HABILIDADES</h2>
             <div class="flex-container">
-                <div class="items">
+                <div class="items item-img">
                     <img src="img/skills-1.jpg" alt="">
                 </div>
                 <div class="items">
@@ -142,7 +144,7 @@
                 </div>
             </div>
             <div class="flex-container">
-                <div class="items">
+                <div class="items item-img">
                     <img src="img/skills-2.jpg" alt="">
                 </div>
                 <div class="items">
@@ -175,7 +177,7 @@
         </section>
         <!------------------------------------------------->
         <!------------------------------------------------->
-        <section class="form">
+        <section id="form" class="form">
             <h2>CONTACTO</h2>
             <form>
                 <div class="full-name">

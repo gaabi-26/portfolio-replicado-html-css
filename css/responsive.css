@@ -1,0 +1,312 @@
+@media (max-width:1920px){}
+
+
+
+@media (max-width:1440px){
+    /*-----------------------------*/
+    .hero .below h2{
+        padding-top: 175px;
+
+    }
+    /*-----------------------------*/
+    .services{
+        padding-top: 100px;
+    }
+    /*-----------------------------*/
+    .statistics{
+        padding-top: 100px;
+    }
+    .statistics .item2{
+        display: none;
+    }
+    /*-----------------------------*/
+    .skills{
+        padding-top: 100px;
+    }
+    /*-----------------------------*/
+    .workstation{
+        padding-top: 100px;
+    }
+    /*-----------------------------*/
+    .form{
+        padding-top: 100px;
+    }
+    /*-----------------------------*/
+}
+
+
+
+@media (max-width:1280px){
+    /*-----------------------------*/
+    .hero h1{
+        padding-bottom: 30px;
+    }
+    .hero .hero-content { 
+        padding: 0;
+    }
+    .hero .below{
+        height: 20em;
+    }
+    .hero .below h1{
+        font-size: 5em;
+        flex-basis: 50px;
+    }
+    .hero .below h2{
+        font-size: 3em;
+        padding-bottom: 160px;
+    }
+    /*-----------------------------*/
+    .project h2{
+        margin-top: 0;
+    }
+    /*-----------------------------*/
+}
+
+
+
+@media (max-width:1024px){
+    /*-----------------------------*/
+    .header h3{
+        display: none;
+    }
+    .header{
+        padding: 30px 55px;
+    }
+    /*-----------------------------*/
+    .hero h1{
+        font-size: 100px;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .hero .hero-content a{
+        font-size: 12px;
+    }
+    .hero .hero-content p{
+        font-size: 12px;
+        flex-basis: 230px;
+    }
+    .hero .below{
+        padding-top: 0px;
+    }
+    .hero .below h1{
+        font-size: 5em;
+    }
+    .hero .below h2{
+        font-size: 2em;
+        padding-bottom: 73px;
+    }
+    /*-----------------------------*/
+    .services{
+        padding-top: 50px;
+    }
+    .services .items{
+        padding: 0 0 0 5px;
+    }
+    /*-----------------------------*/
+    .statistics{
+        padding-top: 50px;
+    }
+    .statistics h2{
+        margin-bottom: 0;
+    }
+    .statistics .item1 h3{
+        padding-bottom: 0;
+        margin: 0 0 20px;
+        text-align: center;
+ 
+    }
+    .statistics .subitem{
+        text-align: center;
+    }
+    /*-----------------------------*/
+    .skills{
+        padding-top: 50px;
+    }
+    /*-----------------------------*/
+    .workstation{
+        padding-top: 10px;
+    }
+    /*-----------------------------*/
+    .form{
+        padding-top: 50px;
+    }
+    .form input{
+        width: 280px;
+    }
+    .form textarea{
+        width: 660px;
+    }
+    /*-----------------------------*/
+}
+
+
+
+@media (max-width:768px){
+    /*-----------------------------*/
+    .main img{
+        border-radius: 12px;
+    }
+    /*-----------------------------*/
+    .header h3{
+        display: none;
+    }
+    .header .menu{
+        display: none;
+    }
+    .header .contact{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .header .list {
+        display: block;
+        background-color: transparent;
+        border: 0;
+    }
+    .header img{
+        width: 30px;
+        object-fit: cover;
+    }
+    /*-----------------------------*/
+    .hero{
+        padding: 0 10px;
+        text-align: center;
+        height: 480px;
+    }
+    .hero .saludo{
+        display: none;
+    }
+    .hero .hero-content{
+        padding-top: 80px;
+        display: block;
+    }
+    .hero .hero-content button{
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+    .hero .hero-content p{
+        padding: 30px 25px 40px;        
+        margin: 0;
+        font-size: 16px;
+    }
+    .hero .below{
+        padding: 0;
+    }
+    .hero .below h1{
+        text-align: center;
+        font-size: 55px;
+        padding: 30px 0 0;
+    }
+    .hero .below h2{
+        font-size: 25px;
+        padding: 30px 0 0;
+        margin: 0;
+    }
+    /*-----------------------------*/
+    .project{
+        padding: 25px 20px 0;
+    }
+    .project h2{
+        font-size: 45px;
+    }
+    .project h3{
+        display: none;
+    }
+    .project .flex-container{
+        justify-content: center;
+    }
+    .project button{
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+    /*-----------------------------*/
+    .services{
+        padding: 25px 20px 0;
+    }
+    .services h2{
+        font-size: 45px;
+    }
+    .services .services-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .services .items h3{
+        padding-bottom: 30px;
+    }
+    .services .items{
+        padding-left: 50px;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+    /*-----------------------------*/
+    .statistics{    
+        padding: 25px 20px 0;
+    }
+    .statistics h2{
+        font-size: 45px;
+    }
+    /*-----------------------------*/
+    .skills{
+        padding: 25px 20px 0;
+    }
+    .skills h2{
+        font-size: 45px;
+    }
+    .skills .item-img{
+        display: none;
+    }
+    .skills .flex-container{
+        display: flex;
+        justify-content: center;
+    }
+    .skills .items{
+        margin: 0 25px;
+    }
+    /*-----------------------------*/
+    .workstation{
+        padding: 25px 20px 0;
+    }
+    .workstation h2{
+        font-size: 45px;
+    }
+    /*-----------------------------*/
+    .form{
+        padding-top: 20px;
+    }
+    .form h2{
+        font-size: 45px;
+    }
+    .form label{
+        margin: 0 10px;
+    }
+    .form input{
+        width: 150px;
+        margin: 0 10px;
+    }
+    .form textarea{
+        width: 300px;
+        margin: 0 10px;
+        padding: 0;
+    }
+    .form button{
+        margin: 10px 10px 20px;
+        border-radius: 15px;
+        padding: 8px 20px;
+    }
+    /*-----------------------------*/
+}
+
+
+
+@media (max-width:480px){
+
+}
+
+
+
+@media (max-width:320px){
+    
+}
