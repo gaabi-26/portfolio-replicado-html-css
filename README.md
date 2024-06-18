@@ -1,5 +1,4 @@
 # Personal-Portfolio
-Trabajo Practico Final
 
 * DEMOSTRACION: https://gabrielmartinez26092005.github.io/replicated-personal-portfolio/
 
